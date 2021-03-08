@@ -1,4 +1,3 @@
-from rest_framework.fields import IntegerField, SerializerMethodField
 from rest_framework.serializers import ModelSerializer
 
 from volleyball.stadium.serializers import StadiumSerializer
