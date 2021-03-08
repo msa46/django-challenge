@@ -19,6 +19,8 @@ class Match(models.Model):
         for seat in seats:
             tickets.append(Ticket(match=self, seat=seat, price=self.base_price))
         Ticket.objects.bulk_create(tickets)
+        #As a final note,I wanted to add a celery task  for expiring all 
+        #tickets of a match but alas,Never got the time to do so
 
 class Ticket(models.Model):
 
