@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'volleyball.authentication',
     'volleyball.stadium',
     'volleyball.match',
+    'volleyball.reservation',
 ]
 
 MIDDLEWARE = [
