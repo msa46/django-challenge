@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'volleyball',
     'volleyball.authentication',
+    'volleyball.stadium',
 ]
 
 MIDDLEWARE = [
